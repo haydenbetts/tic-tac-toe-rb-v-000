@@ -110,6 +110,10 @@ def winner(board)
   end
 end
 
+def congratulate(current_player)
+  
+end
+
 # currently on the play loop
 def play(board)
   until over?(board)
