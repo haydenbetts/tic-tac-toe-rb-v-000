@@ -10,7 +10,6 @@ WIN_COMBINATIONS = [
 ]
 
 MESSAGES = {
-  congrats: "Congratulations",
   draw: "Cat's Game!"
 }
 
