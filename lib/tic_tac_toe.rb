@@ -10,7 +10,8 @@ WIN_COMBINATIONS = [
 ]
 
 MESSAGES = {
-  "Congratulations #{current_player}!",
+  congrats: "Congratulations #{current_player}!",
+  draw: "Cat's Game!"
 }
 
 
