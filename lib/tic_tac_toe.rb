@@ -128,7 +128,6 @@ def play(board)
     congratulate(winner(board))
   elsif draw?(board)
     draw_message
-  else
   end
 
 end
