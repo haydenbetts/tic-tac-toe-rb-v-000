@@ -114,6 +114,10 @@ def congratulate(current_player)
   puts "Congratulations #{current_player}!"
 end
 
+def draw_message
+  puts "Cat's Game!"
+end
+
 # currently on the play loop
 def play(board)
   until over?(board)
