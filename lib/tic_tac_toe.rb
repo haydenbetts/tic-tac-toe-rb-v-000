@@ -125,7 +125,7 @@ def play(board)
   end
 
   if won?(board)
-    congratulate(current_player(board))
+    congratulate(winner(board))
   elsif draw?(board)
     draw_message
   else
