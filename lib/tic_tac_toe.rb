@@ -111,7 +111,7 @@ def winner(board)
 end
 
 def congratulate(current_player)
-  
+  puts "Congratulations #{current_player}!"
 end
 
 # currently on the play loop
