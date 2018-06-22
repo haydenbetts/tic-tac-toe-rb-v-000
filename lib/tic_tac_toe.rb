@@ -110,8 +110,8 @@ def winner(board)
   end
 end
 
-def congratulate(current_player)
-  puts "Congratulations #{current_player}!"
+def congratulate(winner)
+  puts "Congratulations #{winner}!"
 end
 
 def draw_message
